@@ -6,7 +6,7 @@ function filter(){
     if(localStorage.getItem("disabled"))
         return;
 
-    var stories = stream.querySelectorAll(".storyInnerContent");
+    var stories = stream.querySelectorAll(".userContentWrapper");
     working = true;
     for(var i=0; i < stories.length; i++){
         var story = stories[i];
